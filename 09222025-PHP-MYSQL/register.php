@@ -11,21 +11,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $conn->query($checkEmail);
 
     if ($result->num_rows > 0) {
-        echo "Email already has an account";
+        echo "<script>alert('Email already registered. Please login.');
+        window.location.href = 'index1.php';</script>";
     } else {
         // Hash password
         $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
-        // Insert only if email is not found
-        $sql = "INSERT INTO users(fullname, email, password) 
-                VALUES ('$fullname', '$email', '$hashed_password')";
+        // Default profile picture
+        $defaultImage = "image/default.png";
+
+        // Insert new user
+        $sql = "INSERT INTO users(fullname, email, password, profile_image) 
+                VALUES ('$fullname', '$email', '$hashed_password', '$defaultImage')";
 
         if ($conn->query($sql) === TRUE) {
-            echo "Account Created!!";
+            echo "<script>alert('Account created successfully! Please log in.');
+            window.location.href = 'index1.php';</script>";
         } else {
             echo "Error: " . $sql . " - " . $conn->error;
         }
     }
 }
 ?>
-    
