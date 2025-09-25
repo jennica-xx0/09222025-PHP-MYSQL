@@ -8,8 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-[url('https://upload.wikimedia.org/wikipedia/commons/7/71/Gli-Gli_Barangay_Hall_SGA.jpg')] h-screen w-full bg-cover bg-center bg-no-repeat flex justify-center items-center">
-    <div class="max-y-[60px] bg-white/70 p-4 space-y-4 rounded-2xl flex-row justify-center items-center">
+<body class="bg-[url('https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg')] min-h-screen w-full bg-cover bg-center bg-no-repeat flex justify-center items-center">
+    <div class="max-y-[60px] bg-gray-100 p-4 space-y-4 -mr-150 rounded-2xl flex-row justify-center items-center">
         <h1 class="justify-self-center font-bold text-2xl font-mono m-6">Create Account</h1>
         <div>
             <h1 class="justify-self-center items-center font-semibold">Fullname</h1>
