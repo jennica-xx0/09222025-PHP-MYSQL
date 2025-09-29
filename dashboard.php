@@ -24,7 +24,7 @@ $user = $result->fetch_assoc();
 
 <body class="bg-gray-100 min-h-screen flex flex-col">
     <!-- Navbar -->
-    <nav class="bg-gray-800 text-white px-6 py-3 flex justify-between items-center">
+    <nav class="bg-indigo-600 text-white px-6 py-3 flex justify-between items-center">
         <h2 class="text-lg font-semibold">Welcome, <?php echo htmlspecialchars($user['fullname']); ?></h2>
         <a href="logout.php">
             <button class="bg-red-500 px-3 py-1 rounded hover:bg-red-600">Logout</button>
@@ -60,7 +60,7 @@ $user = $result->fetch_assoc();
                     <input type="file" name="profile_image" accept="image/*"
                         class="block w-full border p-2 rounded">
                     <button type="submit"
-                        class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600">
+                        class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-600">
                         Upload
                     </button>
                 </form>

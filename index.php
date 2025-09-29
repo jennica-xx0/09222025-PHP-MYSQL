@@ -17,17 +17,17 @@
 
             <div>
                 <h1 class="justify-self-center items-center font-semibold">Fullname</h1>
-                <input class="w-full border-2 rounded-md p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-indigo-500 " type="text" name="fullname" placeholder="Enter your name" required />
+                <input class="w-full border-2 rounded-md p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-indigo-400 " type="text" name="fullname" placeholder="Enter your name" required />
             </div>
 
             <div>
                 <h1 class="justify-self-center items-center px-10 font-semibold">Email</h1>
-                <input class="w-full rounded-md border-2 p-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 " type="email" name="email" placeholder="Enter your email" required />
+                <input class="w-full rounded-md border-2 p-2 focus:outline-none focus:ring-2 focus:ring-indigo-400 " type="email" name="email" placeholder="Enter your email" required />
             </div>
 
             <div>
                 <h1 class="justify-self-center items-center px-10 font-semibold">Password</h1>
-                <input class="w-full border-2 rounded-md p-3 border-spacing-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 " type="password" name="password" placeholder="Enter your password" required />
+                <input class="w-full border-2 rounded-md p-2 border-spacing-2 focus:outline-none focus:ring-2 focus:ring-indigo-400 " type="password" name="password" placeholder="Enter your password" required />
             </div>
 
             <div>
